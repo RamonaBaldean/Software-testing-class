@@ -1,0 +1,65 @@
+www.starghift.ro
+
+  Test scenarios for "CONECTARE"
+
+1.Select "VREAU CONT NOU"
+ 
+a: valid data for all fields
+ Used data: 
+prenume: Edward
+nume: Ian
+email:  tristique.aliquet.Phasellus@pedeNuncsed.co.uk
+parola: tincidunt
+
+ b: invalid data    
+prenume: Marvin123
+nume: Grady
+email:  risus.a.ultricies@vitae.net
+parola: tincidunt
+
+ c:prenume: Edward
+nume: Ian
+email:  tristique.aliquet.Phasellus@pedeNuncsed.co.uk
+parola: tin
+
+ d: no data
+
+2.Select "CONECTARE"
+3.Valid data for all fields 
+ a.Email 
+Used data for email 
+prenume: Edward
+nume: Ian
+email:  tristique.aliquet.Phasellus@pedeNuncsed.co.uk
+parola: tincidunt
+ b.Telefon mobil 
+
+4.Invalid data for email 
+Used data:
+a: email: jakugobako@mailinator.com
+   parola: Pa$$w0rd!
+b: email: jakugobako@.com
+   parola: Pa$$w0rd!
+c: email: jakugobakomailinator.com
+   parola: Pa$$w0rd!
+d: no input
+5.Invalid data for "telefon mobil" 
+ a:123456789
+ b:07c484848
+ c:0765 4848
+ d: no data
+6.Invalid data for "Parola"
+ a:tinc
+ b: no data
+7.Select "Tine-ma minte" checkbox 
+8.Select "Ai uitat parola?" 
+9.Select "Conectare" 
+
+ Following the exploratory testing on the "CONECTARE" functionality, two bugs and an improvement were found.
+ Both bugs are of major severity and have normal priority. The improvement found is of normal severity and normal priority.
+
+0031553 improvement
+0031556 bug
+0031560 bug
+
+
